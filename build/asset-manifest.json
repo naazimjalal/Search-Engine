@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b3ce29e.chunk.css",
+    "main.js": "/static/js/main.4430e136.chunk.js",
+    "main.js.map": "/static/js/main.4430e136.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.78d76ac4.js",
+    "runtime~main.js.map": "/static/js/runtime~main.78d76ac4.js.map",
+    "static/js/2.9036452a.chunk.js": "/static/js/2.9036452a.chunk.js",
+    "static/js/2.9036452a.chunk.js.map": "/static/js/2.9036452a.chunk.js.map",
+    "static/js/3.c431c241.chunk.js": "/static/js/3.c431c241.chunk.js",
+    "static/js/3.c431c241.chunk.js.map": "/static/js/3.c431c241.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d411b6bcbbc2e8393d83a96a7f3ce40f.js": "/precache-manifest.d411b6bcbbc2e8393d83a96a7f3ce40f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6b3ce29e.chunk.css.map": "/static/css/main.6b3ce29e.chunk.css.map",
+    "static/media/App.css": "/static/media/Platform.f9b597c0.ttf",
+    "static/media/Home.css": "/static/media/Plus.1e5642fd.otf"
+  }
+}

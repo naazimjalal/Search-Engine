@@ -1,0 +1,52 @@
+.results-area{
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 130px 45px;
+    display: flex;
+}
+.item{
+    padding: 8px 11px;
+    height: 106px;
+    padding-bottom: 52px;
+}
+.Cardimg{
+    display: flex;
+}
+.Cardar{
+    
+    width: 300px;
+    border: 1px solid black;
+    padding: 6px 7px;
+    border-radius: 3px;
+}
+.itemtitle{
+    font-size: 26px;
+    font-family: 'PLUS';
+    color: #000;
+}
+.snippet{
+    font-family: 'Plus';
+    width: 58%;
+    text-align: justify;
+    color: #000;
+}
+ 
+.container_web{
+    width: 0;
+    height: 0;
+}
+ 
+.web-icon{
+    top: 4px;
+    position: relative;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+.link_web:hover + .container_web{
+    height: 300px;
+    width: 150px;
+    color: red;
+}

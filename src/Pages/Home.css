@@ -1,0 +1,182 @@
+.icons{
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    display: flex;
+}
+@font-face {
+    font-family: Plus;
+    src: url(./font/Plus.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.title{
+    padding: 7px 11px;
+    font-family: 'PLATFORM';
+}
+.sta{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Roboto';
+    position: absolute;
+    bottom: 17px;
+    padding: 1px 47px;
+}
+.msg{
+    font-family: 'Roboto';
+    padding: 20px 16px;
+    font-size: 11px;
+}
+.meaning{
+    font-family: 'ROBOTO';
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+}
+.title-of{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 25px;
+    font-family: platform;
+}
+.weather-text{
+    position: relative;
+    top: -19px;
+    padding: 34px 13px;
+    font-family: Platform;
+}
+.svg-1-2-26.svg-d1-1-2-28{
+    margin-left: auto;
+    margin-right: auto;
+    fill: white;
+    display: block;
+}
+.widgets{
+    position: relative;
+    top: 167px;
+    padding: 1px 34px;
+    display: flex;
+    justify-content: center;
+}
+.widg{
+    padding: 0px 40px;
+}
+.icons svg:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+#avatar:hover{
+    cursor: pointer;
+}
+#avatar_stat{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 31px;
+    font-size: 36px;
+}
+.details{
+    position: absolute;
+    bottom: 96px;
+    padding: 1px 14px;
+    font-size: 18px;
+    font-family: 'ROBOTO';
+}
+.details-info{
+    padding: 14px 0px;
+}
+#Subhere{
+    visibility: hidden;
+}
+.google-button button{
+    position: absolute;
+    bottom: 18px;
+    left: 34px;
+}
+.blocked-title{
+    text-align: center;
+    padding: 9px 0px;
+    font-family: 'PLATFORM';
+}
+#blockpaper{
+    visibility: hidden;
+}
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded{
+    width: 215px;
+    height: 271px;
+    position: relative;
+}
+
+
+
+@media (max-width:450px) {
+     
+    .icons{
+        display: none;
+    }
+    .widgets{
+        display: block;
+    }
+    .widg{
+        padding: 30px 40px; 
+    }
+    .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded{
+        width: 85vw;
+        height: 68vh;
+        position: relative;
+        left: -42px;
+    }
+    .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded{
+        width: 85vw;
+        height: 68vh;
+        position: relative;
+        left: -42px;
+    }
+    .title {
+        padding: 15px 26px;
+        font-family: 'PLATFORM';
+        font-size: 28px;
+    }
+    .svg-1-2-26.svg-d1-1-2-28{
+        width: 204px;
+        height: 194px;
+    }
+    .weather-text {
+        position: relative;
+        top: -19px;
+        padding: 42px 26px;
+        font-family: Platform;
+        font-size: 21px;
+    }
+    .title-of {
+        text-align: center;
+        font-size: 3.5rem;
+        padding-top: 25px;
+        font-family: platform;
+    }
+    .meaning {
+        font-family: 'ROBOTO';
+        text-align: center;
+        font-size: 27px;
+        padding-top: 30px;
+    }
+    .msg {
+        font-family: 'Roboto';
+        padding: 20px 16px;
+        font-size: 20px;
+    }
+    .sta {
+        text-align: center;
+        font-size: 29px;
+        font-family: 'Roboto';
+    }
+    .search-bar-container {
+         
+        width: 86vw;
+         
+    }
+}
